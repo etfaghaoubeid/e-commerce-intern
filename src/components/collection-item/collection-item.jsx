@@ -13,20 +13,17 @@ const CollectionItem = ({ collection, addItem, removeItem }) => {
       <Card>
         <Card.Img variant="top" src={imageUrl} width={70} height={300} />
         <Card.Body>
-          <Card.Title>{name}</Card.Title>
           <Card.Text>
-            {description} ...
+          <h6>{name}</h6>
+            {description}
           </Card.Text>
-          <cardFooter >
+          <div className="d-flex justify-content-between align-items-center">
       
-          <div
-              className="btn btn-dark"
-              
-            onClick={() => addItem(collection)}>
+          <span className="btn btn-dark" onClick={() => addItem(collection)}>
             Add to cart
+          </span>
+            <span> <strong>${price}</strong></span>
           </div>
-          <div> <strong>${price}</strong></div>
-            </cardFooter>
         </Card.Body>
       </Card>
     </Col>
