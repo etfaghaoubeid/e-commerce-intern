@@ -1,7 +1,8 @@
-## Requirement
-nodejs>8
+### Requirement
+nodejs>8 <br/>
+Git
 
-#### To run the app in the development mode  run the following commend
+###To run the app in the development mode  run the following commends
 `git clone git@github.com:etfaghaoubeid/e-commerce-intern.git `<br/>
 `cd e-commerce-intern`<br/>
 `npm install --save`<br/>
