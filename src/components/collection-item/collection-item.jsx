@@ -13,8 +13,8 @@ const CollectionItem = ({ collection, addItem, removeItem }) => {
       <Card>
         <Card.Img variant="top" src={imageUrl} width={70} height={300} />
         <Card.Body>
-          <Card.Text>
           <h6>{name}</h6>
+          <Card.Text>
             {description}
           </Card.Text>
           <div className="d-flex justify-content-between align-items-center">

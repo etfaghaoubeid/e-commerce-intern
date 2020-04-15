@@ -1,7 +1,6 @@
 import React from "react";
 import { Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
 import Layout from "./layout/layout";
 import ShopPage from "./pages/shop/shop";
 import Cart from "./components/cart/cart.component";
