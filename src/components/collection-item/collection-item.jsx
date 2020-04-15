@@ -9,7 +9,7 @@ import Col from "react-bootstrap/Col";
 const CollectionItem = ({ collection, addItem, removeItem }) => {
   const { imageUrl, description, name, price } = collection;
   return (
-    <Col lg={3} xs={12} md={4} sm={6}>
+    <Col lg={3} xs={12} md={4} sm={6} className="mb-3">
       <Card>
         <Card.Img variant="top" src={imageUrl} width={70} height={300} />
         <Card.Body>

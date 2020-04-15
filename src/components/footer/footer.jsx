@@ -1,18 +1,16 @@
 import React from "react";
-import styled from "styled-components";
-const FooterWrapper = styled.div`
-  height:4rem;
-  display: flex;
-  flex-direction: center;
-  align-items: center;
-  background: #000;
-  color: #FFF;
-`;
+
+const styles = {
+  background: "#000",
+  height: "43px",
+  color:"#FFF"
+}
 
 const Footer = () => (
-  <FooterWrapper>
-     Footer 
-  </FooterWrapper>
+  <div className="d-flex justify-content-center align-items-center" style={styles}>
+    
+     All &copy; reserved for Etfaghaoubeid
+  </div >
 );
 
 export default Footer;
