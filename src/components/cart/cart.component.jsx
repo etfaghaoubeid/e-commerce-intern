@@ -6,9 +6,13 @@ import Table from "react-bootstrap/Table";
 import CartItem from "../cart-item/cart-item";
 
 const Cart = ({ cartItems }) => {
+  const total = cartItems.reduce((acc, item) => acc += item.price*item.quantity,0)
+
   return (
     <>
       {cartItems.length >= 1 ? (
+        <>
+      
         <Table size="sm">
           <thead>
             <tr>
@@ -23,6 +27,8 @@ const Cart = ({ cartItems }) => {
             ))}
           </tbody>
         </Table>
+          <h1 className="d-flex justify-content-end">Total:{total}</h1>
+          </>
       ) : (
         <h1>Cart is empty</h1>
       )}

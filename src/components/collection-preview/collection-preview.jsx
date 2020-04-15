@@ -5,7 +5,7 @@ import CollectionItem from "../collection-item/collection-item";
 
 
 const CollectionPreview = ({ items }) => {
-    console.log(items ,"hjjjjjjjjjj")
+    
     return (
         <Row className="mb-3" >
             {items.map((collection, idex) => <CollectionItem key={idex} collection={collection} />)}
