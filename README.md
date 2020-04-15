@@ -5,7 +5,11 @@ nodejs>8
 
 In the project directory, you can run:
 
-### `yarn start`
+#### To run the app in the development mode  run the following commend
+`cd e-commerce-intern`<br/>
+`git clone `<br/>
+`npm install --save`<br/>
+`npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
