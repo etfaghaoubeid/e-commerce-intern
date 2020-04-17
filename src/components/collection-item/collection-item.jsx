@@ -10,12 +10,12 @@ const CollectionItem = ({ collection, addItem, removeItem }) => {
   const { imageUrl, description, name, price } = collection;
   return (
     <Col lg={3} xs={12} md={4} sm={6} className="mb-3">
-      <Card>
+      <Card width={80} height={400}>
         <Card.Img variant="top" src={imageUrl} width={70} height={300} />
         <Card.Body>
           <h6>{name}</h6>
           <Card.Text>
-            {description}
+            {description.slice(0,44)}
           </Card.Text>
           <div className="d-flex justify-content-between align-items-center">
       
