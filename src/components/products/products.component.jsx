@@ -8,7 +8,7 @@ import ProductItem from "../product-item/product-item.component";
 const Products = ({ items }) => {
     
     return (
-        <Row className="mb-3" >
+        <Row className="mt-3" >
             {items.map((item, idex) => <ProductItem key={idex} item={item} />)}
         </Row>
     )
