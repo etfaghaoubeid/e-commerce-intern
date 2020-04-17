@@ -2,7 +2,6 @@ import React from "react";
 import {Link  } from 'react-router-dom'
 import styled from 'styled-components'
 import {ButtonContainer} from "../button-container/button-container.component"
-import logo from "../../logo.svg"
 
 
 
