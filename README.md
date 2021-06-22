@@ -6,6 +6,6 @@ Git
 `git clone git@github.com:etfaghaoubeid/e-commerce-intern.git `<br/>
 `cd e-commerce-intern`<br/>
 `npm install --save`<br/>
-`npm start`
+`npm start  `
 
 
