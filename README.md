@@ -7,5 +7,5 @@ Git
 `cd e-commerce-intern`<br/>
 `npm install --save`<br/>
 `npm start  `
-
+G
 
